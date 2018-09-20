@@ -39,6 +39,7 @@
     <OutDir>../app\</OutDir>
     <IntDir>../app\</IntDir>
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\um;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>../app\</OutDir>

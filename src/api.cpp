@@ -38,15 +38,16 @@ written by
    Yunhong Gu, last updated 07/09/2011
 *****************************************************************************/
 
-#ifdef WIN32
+//#ifdef WIN32
    #include <winsock2.h>
    #include <ws2tcpip.h>
+
    #ifdef LEGACY_WIN32
       #include <wspiapi.h>
    #endif
-#else
-   #include <unistd.h>
-#endif
+//#else
+//   #include <unistd.h>
+//#endif
 #include <cstring>
 #include "api.h"
 #include "core.h"
